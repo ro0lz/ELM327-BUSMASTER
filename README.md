@@ -12,8 +12,8 @@ https://www.sparkfun.com/products/9555
 
 ## Main Use Case
 1. When user plugs ELM327 device to OBD-II interface, user can select ELM327 from [Driver Selection] menu. 
-..* Driver will initiate communication with ELM327 device and wait for corresponding response.
-..* Driver will use mode 1 (current data) to collect data.
+  * Driver will initiate communication with ELM327 device and wait for corresponding response.
+  * Driver will use mode 1 (current data) to collect data.
 2. User associates with obd-ii.dbf for pre-configured database of OBD-II PIDs.
 3. For CAN [Transmit] menu, user can select from list of OBD-II PIDs to acquire information from vehicle ECU.
 4. When user activates any CAN message display (message window, signal watch, sigal graph), BUSMASTER will show each OBD-II PID response as CAN messages.
@@ -21,18 +21,18 @@ https://www.sparkfun.com/products/9555
 ## Scope
 1. Test with ELM327-compatible devices: Vgate scan 1.5 and 2.1 with Bluetooth interface, ELM327 1.5 USB interface.
 2. List of supported ELM327 commands:
-..* Engine RPM
-..* Calculated Load Value
-..* Coolant Temperature
-..* Fuel System Status
-..* Vehicle Speed
-..* Short Term Fuel Trim
-..* Long Term Fuel Trim
-..* Intake Manifold Pressure
-..* Timing Advance
-..* Intake Air Temperature
-..* Air Flow Rate
-..* Absolute Throttle Position
-..* Oxygen sensor voltages / associated short term fuel trims
-..* Fuel System status
-..* Fuel Pressure,
+  * Engine RPM
+  * Calculated Load Value
+  * Coolant Temperature
+  * Fuel System Status
+  * Vehicle Speed
+  * Short Term Fuel Trim
+  * Long Term Fuel Trim
+  * Intake Manifold Pressure
+  * Timing Advance
+  * Intake Air Temperature
+  * Air Flow Rate
+  * Absolute Throttle Position
+  * Oxygen sensor voltages / associated short term fuel trims
+  * Fuel System status
+  * Fuel Pressure,
